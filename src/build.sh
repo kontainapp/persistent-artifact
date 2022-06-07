@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 npm run package
 git commit -m  $1 --all    
 git push 

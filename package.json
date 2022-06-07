@@ -4,12 +4,14 @@
   "description": "",
   "main": "./src/index.js",
   "dependencies": {
+    "@actions/artifact": "^1.1.0",
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "adm-zip": "^0.5.9",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@vercel/ncc": "^0.25.1",
     "eslint": "^8.13.0",
     "eslint-plugin-react": "^7.29.4"
   },
